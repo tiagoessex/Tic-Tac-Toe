@@ -1,0 +1,310 @@
+<CoordinateSystem> { Y-Up-Left }
+
+<Comment> {
+  "x2egg arena.X arena.egg"
+}
+<Texture> tref2 {
+  Holland_Stone_Fossil_Beige_HOL02_A_thumbnail.bmp
+}
+<Texture> tref1 {
+  Collection-Texture-Stone-6.bmp
+}
+<Group> arena {
+  <Dart> { 1 }
+  <Joint> Box001 {
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+      }
+    }
+    <Group> {
+      <VertexPool> vpool1 {
+        <Vertex> 0 {
+          -4.5 0 4.5
+          <UV> { 1 1 }
+          <Normal> { -0.57735 -0.57735 0.57735 }
+        }
+        <Vertex> 1 {
+          4.5 0 4.5
+          <UV> { 0 1 }
+          <Normal> { 0.57735 -0.57735 0.57735 }
+        }
+        <Vertex> 2 {
+          -4.5 0 -4.5
+          <UV> { 1 0 }
+          <Normal> { -0.57735 -0.57735 -0.57735 }
+        }
+        <Vertex> 3 {
+          4.5 0 -4.5
+          <UV> { 0 0 }
+          <Normal> { 0.57735 -0.57735 -0.57735 }
+        }
+        <Vertex> 4 {
+          4.5 3 -4.5
+          <UV> { 1 0 }
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 5 {
+          4.5 3 4.5
+          <UV> { 1 1 }
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 6 {
+          -4.5 3 -4.5
+          <UV> { 0 0 }
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 7 {
+          -4.5 3 4.5
+          <UV> { 0 1 }
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 8 {
+          4.5 0 -4.5
+          <UV> { 1 0 }
+          <Normal> { 0.57735 -0.57735 -0.57735 }
+        }
+        <Vertex> 9 {
+          4.5 3 -4.5
+          <UV> { 1 1 }
+          <Normal> { 0.707107 0 -0.707107 }
+        }
+        <Vertex> 10 {
+          -4.5 0 -4.5
+          <UV> { 0 0 }
+          <Normal> { -0.57735 -0.57735 -0.57735 }
+        }
+        <Vertex> 11 {
+          -4.5 3 -4.5
+          <UV> { 0 1 }
+          <Normal> { -0.707107 0 -0.707107 }
+        }
+        <Vertex> 12 {
+          4.5 0 4.5
+          <UV> { 1 0 }
+          <Normal> { 0.57735 -0.57735 0.57735 }
+        }
+        <Vertex> 13 {
+          4.5 3 4.5
+          <UV> { 1 1 }
+          <Normal> { 0.707107 0 0.707107 }
+        }
+        <Vertex> 14 {
+          4.5 3 -4.5
+          <UV> { 0 1 }
+          <Normal> { 0.707107 0 -0.707107 }
+        }
+        <Vertex> 15 {
+          -4.5 0 4.5
+          <UV> { 1 0 }
+          <Normal> { -0.57735 -0.57735 0.57735 }
+        }
+        <Vertex> 16 {
+          -4.5 3 4.5
+          <UV> { 1 1 }
+          <Normal> { -0.707107 0 0.707107 }
+        }
+        <Vertex> 17 {
+          4.5 0 4.5
+          <UV> { 0 0 }
+          <Normal> { 0.57735 -0.57735 0.57735 }
+        }
+        <Vertex> 18 {
+          4.5 3 4.5
+          <UV> { 0 1 }
+          <Normal> { 0.707107 0 0.707107 }
+        }
+        <Vertex> 19 {
+          -4.5 3 -4.5
+          <UV> { 1 1 }
+          <Normal> { -0.707107 0 -0.707107 }
+        }
+        <Vertex> 20 {
+          -4.5 0 4.5
+          <UV> { 0 0 }
+          <Normal> { -0.57735 -0.57735 0.57735 }
+        }
+        <Vertex> 21 {
+          -4.5 3 4.5
+          <UV> { 0 1 }
+          <Normal> { -0.707107 0 0.707107 }
+        }
+        <Vertex> 22 {
+          -4.5 0 -4.5
+          <UV> { 1 0 }
+          <Normal> { -0.333333 -0.666667 -0.666667 }
+        }
+        <Vertex> 23 {
+          -4.5 0 -4.5
+          <UV> { 0 0 }
+          <Normal> { -0.333333 -0.666667 -0.666667 }
+        }
+        <Vertex> 24 {
+          -4.5 0 4.5
+          <UV> { 1 1 }
+          <Normal> { -0.816497 -0.408248 0.408248 }
+        }
+        <Vertex> 25 {
+          -4.5 0 4.5
+          <UV> { 1 0 }
+          <Normal> { -0.816497 -0.408248 0.408248 }
+        }
+        <Vertex> 26 {
+          -4.5 0 4.5
+          <UV> { 0 0 }
+          <Normal> { -0.816497 -0.408248 0.408248 }
+        }
+        <Vertex> 27 {
+          -4.5 3 -4.5
+          <UV> { 0 0 }
+          <Normal> { -0.666667 0.666667 -0.333333 }
+        }
+        <Vertex> 28 {
+          -4.5 3 -4.5
+          <UV> { 0 1 }
+          <Normal> { -0.666667 0.666667 -0.333333 }
+        }
+        <Vertex> 29 {
+          -4.5 3 -4.5
+          <UV> { 1 1 }
+          <Normal> { -0.666667 0.666667 -0.333333 }
+        }
+        <Vertex> 30 {
+          -4.5 3 4.5
+          <UV> { 0 1 }
+          <Normal> { -0.408248 0.408248 0.816497 }
+        }
+        <Vertex> 31 {
+          -4.5 3 4.5
+          <UV> { 1 1 }
+          <Normal> { -0.408248 0.408248 0.816497 }
+        }
+        <Vertex> 32 {
+          4.5 0 -4.5
+          <UV> { 0 0 }
+          <Normal> { 0.816497 -0.408248 -0.408248 }
+        }
+        <Vertex> 33 {
+          4.5 0 -4.5
+          <UV> { 1 0 }
+          <Normal> { 0.816497 -0.408248 -0.408248 }
+        }
+        <Vertex> 34 {
+          4.5 0 4.5
+          <UV> { 0 1 }
+          <Normal> { 0.333333 -0.666667 0.666667 }
+        }
+        <Vertex> 35 {
+          4.5 0 4.5
+          <UV> { 1 0 }
+          <Normal> { 0.333333 -0.666667 0.666667 }
+        }
+        <Vertex> 36 {
+          4.5 0 4.5
+          <UV> { 0 0 }
+          <Normal> { 0.333333 -0.666667 0.666667 }
+        }
+        <Vertex> 37 {
+          4.5 3 -4.5
+          <UV> { 1 0 }
+          <Normal> { 0.408248 0.408248 -0.816497 }
+        }
+        <Vertex> 38 {
+          4.5 3 -4.5
+          <UV> { 1 1 }
+          <Normal> { 0.408248 0.408248 -0.816497 }
+        }
+        <Vertex> 39 {
+          4.5 3 -4.5
+          <UV> { 0 1 }
+          <Normal> { 0.408248 0.408248 -0.816497 }
+        }
+        <Vertex> 40 {
+          4.5 3 4.5
+          <UV> { 1 1 }
+          <Normal> { 0.666667 0.666667 0.333333 }
+        }
+        <Vertex> 41 {
+          4.5 3 4.5
+          <UV> { 0 1 }
+          <Normal> { 0.666667 0.666667 0.333333 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { tref1 }
+        <VertexRef> { 24 34 22 <Ref> { vpool1 } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { tref1 }
+        <VertexRef> { 32 22 34 <Ref> { vpool1 } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { tref2 }
+        <VertexRef> { 37 40 27 <Ref> { vpool1 } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { tref2 }
+        <VertexRef> { 30 27 40 <Ref> { vpool1 } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { tref1 }
+        <VertexRef> { 33 38 23 <Ref> { vpool1 } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { tref1 }
+        <VertexRef> { 28 23 38 <Ref> { vpool1 } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { tref1 }
+        <VertexRef> { 35 40 32 <Ref> { vpool1 } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { tref1 }
+        <VertexRef> { 39 32 40 <Ref> { vpool1 } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { tref1 }
+        <VertexRef> { 25 31 36 <Ref> { vpool1 } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { tref1 }
+        <VertexRef> { 41 36 31 <Ref> { vpool1 } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { tref1 }
+        <VertexRef> { 22 29 26 <Ref> { vpool1 } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { tref1 }
+        <VertexRef> { 30 26 29 <Ref> { vpool1 } }
+      }
+    }
+  }
+}
+<Table> Anim-1 {
+  <Bundle> arena {
+    <Table> "<skeleton>" {
+      <Table> Box001 {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 30 }
+          <Char*> order { srpht }
+        }
+      }
+    }
+  }
+}
